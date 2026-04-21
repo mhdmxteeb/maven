@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/Naveen04jan/.git',
+                git branch: 'main', url:'https://github.com/vvce23ise0171-a11y/maven.git',
                 credentialsId: 'github-token'
             }
         }
